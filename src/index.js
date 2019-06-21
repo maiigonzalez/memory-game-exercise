@@ -1,9 +1,15 @@
+// Import dependencies
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+
+// Import CSS
+import './assets/styles/main.css';
+
+// Import components
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
+// Root element and  Render react app
 ReactDOM.render(<App />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
